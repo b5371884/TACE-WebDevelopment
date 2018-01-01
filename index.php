@@ -57,7 +57,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-							<h3>กิจกรรมที่กำลังจะมาถึง</h3>
+							<h3> กิจกรรมที่กำลังเกิดขึ้น </h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
 						</div>
 					</div>

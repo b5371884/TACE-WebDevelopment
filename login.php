@@ -1,9 +1,15 @@
 <?php session_start(); ?>
 <?php
+
+    if(isset($_SESSION['user_name'])){
+        header("Location: index.php");
+        exit;
+    }
+    
     if (isset($_POST['submit'])) {
         //echo "<script> alert('login'); </script>";
         $_SESSION['user_id'] = 101;
-        $_SESSION['user_name'] = 'ภาคภูมิ วิเศษศรี';
+        $_SESSION['user_name'] = 'Admin Master';
         header("Location: index.php");
         exit;
     }
