@@ -48,123 +48,27 @@
 
 			<?php /* header_nav */include "views/header_nav.php"; ?>
 
-			<!-- Put Each Section Here -->
-
-        
+            <!-- Put Each Section Here -->
+            
 		</div>
 
-			<div id="fh5co-blog-section" class="fh5co-section-gray">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-							<h3> กิจกรรมที่กำลังเกิดขึ้น </h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row row-bottom-padded-md">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="fh5co-blog animate-box fadeInUp animated">
-								<a href="#"><img class="img-responsive" src="images/cover_bg_1.jpg" alt=""></a>
-								<div class="blog-text">
-									<div class="prod-title">
-										<h3><a href="" #="">หลักสูตรการอบรม Medical Mission in Southern Kenya</a></h3>
-										<span class="posted_by">Sep. 15th</span>
-										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="RegisterCourse.php">สมัครเข้าอบรม</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="fh5co-blog animate-box fadeInUp animated">
-								<a href="#"><img class="img-responsive" src="images/cover_bg_2.jpg" alt=""></a>
-								<div class="blog-text">
-									<div class="prod-title">
-										<h3><a href="" #="">หลักสูตรการอบรม Medical Mission in Southern Kenya</a></h3>
-										<span class="posted_by">Sep. 15th</span>
-										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">สมัครเข้าอบรม</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix visible-sm-block"></div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="fh5co-blog animate-box fadeInUp animated">
-								<a href="#"><img class="img-responsive" src="images/cover_bg_3.jpg" alt=""></a>
-								<div class="blog-text">
-									<div class="prod-title">
-										<h3><a href="" #="">หลักสูตรการอบรม Medical Mission in Southern Kenya</a></h3>
-										<span class="posted_by">Sep. 15th</span>
-										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">สมัครเข้าอบรม</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix visible-md-block"></div>
-					</div>
-
-					<!-- <div class="row">
-						<div class="col-md-4 col-md-offset-4 text-center animate-box fadeInUp animated">
-							<a href="#" class="btn btn-primary btn-lg"> Register </a>
-						</div>
-					</div> -->
-
-				</div>
-			</div>
-
-            <div id="fh5co-features">
+            <div id="fh5co-blog-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-profile-male"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>บทเรียนออนไลน์</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">รายละเอียด</a></p>
-							</div>
-						</div>
-
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
+						<h3>หลักสูตรการอบรม</h3>
+						<p>คณาจารย์นิเทศสหกิจศึกษา</p>
 					</div>
-
-					<div class="col-md-4">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-happy"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>ข้อมูลที่พัก/การเดินทาง</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">รายละเอียด</a></p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-wallet"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>กำหนดการเข้าอบรม รุ่นที่ </h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="ScheduleDetails.php">รายละเอียด</a></p>
-							</div>
-						</div>
+                </div>
+                <div class="row">
+					<div class="col-md-4 col-md-offset-4 text-center animate-box fadeInUp animated">
+						<a href="RegisterCourseSeries.php" class="btn btn-primary btn-lg"> ลงทะเบียน </a>
 					</div>
 				</div>
 			</div>
 		</div>
+
+            
             
 
 			<!-- Put Each Section Here -->

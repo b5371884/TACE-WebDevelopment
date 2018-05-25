@@ -108,17 +108,15 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- Text input-->
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="FirstName">ชื่อ</label>
                                         <div class="col-sm-6">
                                             <input id="FirstName" name="FirstName" type="text" placeholder=""
                                                    class="form-control input-sm" required="true">
-
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                               <!-- Text input-->
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="LastName">นามสกุล</label>
                                         <div class="col-sm-6">
@@ -127,7 +125,7 @@ include "views/header_top.php"; ?>
 
                                         </div>
                                     </div>
-                                </div>
+                                
 
                                 <!-- Multiple Radios (inline) -->
                                 <div class="form-group">
@@ -437,7 +435,7 @@ include "views/header_top.php"; ?>
 
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="HaveCoop">หน่วยงานของท่านมีการจัดการเรียนการสอนหลักสูตรสหกิจศึกษา</label>
+                                    <label class="col-md-4 control-label" for="HaveCoop">หน่วยงานของท่าน<br/>มีการจัดการเรียนการสอนหลักสูตรสหกิจศึกษา</label>
                                     <div class="col-md-4">
                                         <div class="radio">
                                             <label for="HaveCoop-0">
@@ -476,7 +474,7 @@ include "views/header_top.php"; ?>
 
                                 <!-- Textarea -->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="ReasonCoop">โปรดให้เหตุผลและความจำเป็นที่ต้องการเข้ารับการฝึกอบรมในหลักสูตร
+                                    <label class="col-sm-4 control-label" for="ReasonCoop">โปรดให้เหตุผลและความจำเป็น<br/>ที่ต้องการเข้ารับการฝึกอบรมในหลักสูตร
                                         “คณาจารย์นิเทศ สหกิจศึกษา”</label>
                                     <div class="col-sm-6">
                                         <textarea id="ReasonCoop" name="ReasonCoop" class="form-control"></textarea>
@@ -514,8 +512,8 @@ include "views/header_top.php"; ?>
                                 </div>
                                 <!-- Multiple Radios (inline) -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="Food">ประเภทอาหาร</label>
-                                    <div class="col-md-4">
+                                    <label class="col-md-3 control-label" for="Food">ประเภทอาหาร</label>
+                                    <div class="col-md-6">
                                         <label class="radio-inline" for="Food-0">
                                             <input type="radio" name="Food" id="Food-0" value="1" checked="checked">
                                             อาหารทุกประเภท
@@ -532,7 +530,6 @@ include "views/header_top.php"; ?>
                                             <input type="radio" name="Food" id="Food-3" value="4">
                                             อาหารมุสลิม
                                         </label>
-
                                     </div>
                                 </div>
                                 <!-- Multiple Radios -->
@@ -567,64 +564,13 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <!-- Multiple Radios -->
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label" for="SizeTshirt"> ขนาดเสื้อ(สมาคมฯ
-                                        จะมอบให้ในวันลงทะเบียน)</label>
-                                    <div class="col-md-4">
-                                        <div class="radio">
-                                            <label for="SizeTshirt-0">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-0" value="SS"
-                                                       checked="checked">
-                                                SS รอบอก 36 นิ้ว ยาว 24 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-1">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-1" value="S">
-                                                S รอบอก 38 นิ้ว ยาว 26.5 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-2">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-2" value="M">
-                                                M รอบอก 40 นิ้ว ยาว 28.5 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-3">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-3" value="L">
-                                                L รอบอก 42 นิ้ว ยาว 29.5 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-4">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-4" value="XL">
-                                                XL รอบอก 44 นิ้ว ยาว 30 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-5">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-5" value="XXL">
-                                                XXL รอบอก 46 นิ้ว ยาว 32 นิ้ว
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="SizeTshirt-6">
-                                                <input type="radio" name="SizeTshirt" id="SizeTshirt-6" value="XXXL">
-                                                XXXL รอบอก 48 นิ้ว ยาว 34 นิ้ว
-                                            </label>
-                                        </div>
-
-                                    </div>
-                                </div>
 
                                 <!-- Multiple Checkboxes (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-6 control-label" for="checkboxesSleep">
                                         ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ
-                                        ซึ่งข้าพเจ้าสามารถพักค้าง ณ
-                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3.5 วัน</label>
+                                        ซึ่งสามารถพักค้าง ณ
+                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3 วัน</label>
                                     <br>
                                     <div class="col-md-4">
                                         <label class="checkbox-inline" for="checkboxesSleep-0">
