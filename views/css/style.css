@@ -532,7 +532,7 @@ figure {
 #fh5co-work-section_2,
 #fh5co-blog-section,
 #fh5co-features {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -541,7 +541,7 @@ figure {
   #fh5co-work-section_2,
   #fh5co-blog-section,
   #fh5co-features {
-    padding: 4em 0;
+    padding: 1.5em 0;
   }
 }
 
