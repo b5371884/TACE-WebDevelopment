@@ -108,7 +108,7 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="services animate-box">
                                 <a href="#">  <span><i class="glyphicon glyphicon-comment" style="font-size:4.5em;"></i></span>
-                                <h3>การสื่อสารระหว่างผู้เข้าอบรม และวิทยากร</h3> </a>
+                                <h3>การสื่อสารระหว่างผู้เข้าอบรม<br/> และวิทยากร</h3> </a>
                                 <!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
                             </div>
                         </div>
