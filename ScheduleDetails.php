@@ -45,8 +45,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center heading-section animate-box fadeInUp animated">
-						<h3>กำหนดการอบรม</h3>
-						<p>(ร่าง) กำหนดการอบรมเชิงปฏิบัติการสหกิจศึกษา หลักสูตร "คณาจารย์นิเทศสหกิจศึกษา"</p>
+						<h3> กำหนดการอบรมเชิงปฏิบัติการสหกิจศึกษา </h3>
+						<p> หลักสูตร "คณาจารย์นิเทศสหกิจศึกษา" </p>
 
                         <img src="views/images/TimeTable.png" width="800px">
                         

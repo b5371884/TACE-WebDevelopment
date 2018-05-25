@@ -20,7 +20,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title> .: TACE Activity :. </title>
+<title> .: TACE COOP Thailand :. </title>
 
 
 <?php /* header_meta */include "views/meta.php";?>
@@ -46,34 +46,85 @@
 	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 
-			<?php /* header_nav */include "views/header_nav.php"; ?>
+            <?php /* header_nav */include "views/header_nav.php";?>
 
             <!-- Put Each Section Here -->
-            
-		</div>
 
-            <div id="fh5co-blog-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-						<h3>หลักสูตรการอบรม</h3>
-						<p>คณาจารย์นิเทศสหกิจศึกษา</p>
-					</div>
+            <div id="fh5co-services-section" class="fh5co-section-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+                            <h3>การอบรมเชิงปฏิบัติการสหกิจศึกษา</h3>
+                            <p>หลักสูตร "คณาจารย์นิเทศศาสตร์สหกิจศึกษา"</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-					<div class="col-md-4 col-md-offset-4 text-center animate-box fadeInUp animated">
-						<a href="RegisterCourseSeries.php" class="btn btn-primary btn-lg"> ลงทะเบียน </a>
-					</div>
-				</div>
-			</div>
-		</div>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="services animate-box">
 
-            
-            
 
-			<!-- Put Each Section Here -->
+                                <a href="ScheduleDetails.php"><span><i class="glyphicon glyphicon-calendar" style="font-size:4.5em;"></i></span> <h3>กำหนดการ</h3></a>
+<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="services animate-box">
 
-			<?php /* footer_ui */include "views/footer_ui.php";?>
+                                <a href="RegisterCourseSeries.php"><span><i class="glyphicon glyphicon-edit" style="font-size:4.5em;"></i></span>  <h3>สมัครเข้ารับการอบรม</h3> </a>
+<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <div class="services animate-box">
+
+                                <a href="PaymentMethod.php"> <span><i class="glyphicon glyphicon-credit-card" style="font-size:4.5em;"></i></span> <h3>การชำระค่าลงทะเบียน</h3></a>
+<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="services animate-box">
+
+                                <a href="AccommodationDetails.php"> <span><i class="glyphicon glyphicon-bed" style="font-size:4.5em;"></i></span>  <h3>ข้อมูลที่พักการเดินทาง</h3> </a>
+<!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-2 col-sm-2">
+
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="services animate-box">
+                                <a href="#"> <span><i class="glyphicon glyphicon-blackboard" style="font-size:4.5em;"></i></span>
+                                <h3>บทเรียนออนไลน์ <br/><br/></h3></a>
+
+                                <!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="services animate-box">
+                                <a href="#">  <span><i class="glyphicon glyphicon-comment" style="font-size:4.5em;"></i></span>
+                                <h3>การสื่อสารระหว่างผู้เข้าอบรม และวิทยากร</h3> </a>
+                                <!--                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END What we do -->
+
+
+            <!-- Put Each Section Here -->
+
+            <?php /* footer_ui */include "views/footer_ui.php";?>
 
 		</div>
 

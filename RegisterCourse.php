@@ -53,7 +53,16 @@ include "views/header_top.php"; ?>
         <!-- end:header-top -->
 
         <!-- insert title -->
-        <div id="fh5co-feature-product" class="fh5co-section-gray">
+
+<!--        <div id="fh5co-feature-product" class="fh5co-section-gray">-->
+<!--            <div class="container">-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+        <!-- end:title -->
+
+
+        <div id="fh5co-features" class="fh5co-section-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center heading-section">
@@ -70,13 +79,6 @@ include "views/header_top.php"; ?>
                     </div>
                     -->
                 </div>
-            </div>
-        </div>
-        <!-- end:title -->
-
-
-        <div id="fh5co-features">
-            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
 

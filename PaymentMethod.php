@@ -64,13 +64,13 @@ include "views/header_top.php"; ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-                    <h3>ระบบได้ทำการบันทึกข้อมูลของคุณ xx xx เรียบร้อยแล้ว</h3>
+                    <h3>เรียน คุณ <ชื่อ> <นามสกุล></ช> <br/> ระบบได้ทำการบันทึกข้อมูล <br/> เรียบร้อยแล้ว</h3>
                     <p>โปรดชำระค่าลงทะเบียน</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center animate-box fadeInUp animated">
-                    <a href="RegisterCourseSeries.php" class="btn btn-primary btn-lg"> พิมพ์ใบชำระค่าลงทะเบียน </a>
+                    <a href="#" class="btn btn-primary btn-lg"> พิมพ์ใบชำระค่าลงทะเบียน </a>
                 </div>
             </div>
             <br>

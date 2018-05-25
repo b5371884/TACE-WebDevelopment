@@ -9,24 +9,28 @@
                 <a href="#">Contact</a>
             </div>
             <div class="col-md-6 col-sm-6 text-right fh5co-social">
-                <a href="#" class="grow"><i class="icon-facebook2"></i></a>
-                <a href="#" class="grow"><i class="icon-twitter2"></i></a>
-                <a href="#" class="grow"><i class="icon-instagram2"></i></a>
+<!--                <a href="https://www.facebook.com/ThaiAssociation"><i class="icon-facebook2"></i></a>-->
+<!--                <a href="https://www.instagram.com/tace_thaicoop"><i class="icon-instagram"></i></a>-->
+                <a href="https://www.facebook.com/ThaiAssociation" class="grow"><i class="icon-facebook2"></i></a>
+                <a href="https://www.instagram.com/tace_thaicoop" class="grow"><i class="icon-instagram2"></i></a>
             </div>
         </div>
     </div>
 </div>
 
 <header id="fh5co-header-section" class="sticky-banner">
+
     <div class="container">
         <div class="nav-header">
+
             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-            <h1 id="fh5co-logo"><a href="index.php"> สมาคมสหกิจศึกษาไทย </a></h1>
+<!--            <img src="views/images/LOGO.jpg" width="50px">-->
+            <h1 id="fh5co-logo"><a href="index.php"> <img src="views/images/LOGO.jpg" width="40px"> สมาคมสหกิจศึกษาไทย </a></h1>
             <!-- START #fh5co-menu-wrap -->
             <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
                     <li class="active">
-                        <a href="index.php">Home</a>
+                        <a href="index.php"> หน้าแรก </a>
                     </li>
 
                     <!-- <li class="active">
@@ -60,7 +64,7 @@
 
                     <?php } else { ?>
 
-                            <li><a href="login.php">Login</a></li>
+                            <li><a href="login.php"> เข้าสู่ระบบ </a></li>
                             <!-- <li><a data-toggle="modal" href="login.php" >Login</a> </li>                         -->
                             
 
