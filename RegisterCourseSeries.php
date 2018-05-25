@@ -20,7 +20,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title> .: TACE Activity :. </title>
+<title> .: TACE หลักสูตรการอบรม :. </title>
 
 
 <?php /* header_meta */include "views/meta.php";?>
