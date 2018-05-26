@@ -26,7 +26,7 @@
             <nav id="fh5co-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="fh5co-primary-menu">
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <!-- <li class="active">
@@ -53,8 +53,7 @@
                             <li>
                                 <a href="#" class="fh5co-sub-ddown"> ยินดีต้อนรับคุณ <?php echo $_SESSION['user_name']; ?> </a>
                                     <ul class="fh5co-sub-menu">
-                                    <li><a href="#">Water World</a></li>
-                                    <li><a href="#">Cloth Giving</a></li>
+                                    <li><a href="AdminMaster.php">จัดการระบบ</a></li>
                                     <li><a href="process/logout.php">Logout</a></li>
                                 </ul>
                             </li>

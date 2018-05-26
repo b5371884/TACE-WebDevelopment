@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title> .: หลักสูตรทั้งหมด TACE Activity :. </title>
+    <title> .: TACE All Course :. </title>
 
 
     <?php /* header_meta */include "views/meta.php";?>
@@ -78,9 +78,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td> <?php echo $i ?> 
-
-                                                            
-                                                        
                                                         </td>
                                                         <td>คณาจารย์นิเทศสหกิจศึกษา</td>
                                                         <td>100</td>
@@ -88,7 +85,7 @@
                                                         <td>8-11 สิงหาคม 2559</td>
                                                         <td>
                                                             <i class="glyphicon glyphicon-edit"></i>
-                                                            <i class="glyphicon glyphicon-search"></i>
+                                                            <a href="AdminApprovePending.php"><i class="glyphicon glyphicon-search"> </i></a> 
                                                             <i class="glyphicon glyphicon-trash"></i>
                                                         </td>
                                                     </tr>
@@ -113,11 +110,6 @@
                                                                 <span class="icon-folder-download"></span> ผู้สมัคร 2 หลักสูตร
                                                             </a>
                                                         </td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
                                                     </tr>
                                                 </table>
                                             
