@@ -73,7 +73,7 @@
 										<span class="posted_by">Sep. 15th</span>
 										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
 										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">สมัครเข้าอบรม</a></p>
+										<p><a href="RegisterCourse.php">สมัครเข้าอบรม</a></p>
 									</div>
 								</div>
 							</div>

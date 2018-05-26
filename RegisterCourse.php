@@ -86,6 +86,7 @@ include "views/header_top.php"; ?>
                                 <legend>ส่วนที่ 1 ข้อมูส่วนตัว</legend>
 
                                 <!-- Multiple Radios (inline) -->
+
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="radios">คำนำหน้าชื่อ</label>
                                     <div class="col-md-6">
@@ -111,7 +112,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="FirstName">ชื่อ</label>
                                         <div class="col-sm-6">
                                             <input id="FirstName" name="FirstName" type="text" placeholder=""
-                                                   class="form-control input-md" required="true">
+                                                   class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -121,7 +122,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="LastName">นามสกุล</label>
                                         <div class="col-sm-6">
                                             <input id="LastName" name="LastName" type="text" placeholder=""
-                                                   class="form-control input-md" required="true">
+                                                   class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -199,7 +200,7 @@ include "views/header_top.php"; ?>
                                            for="ManagementPositions">ตำแหน่งบริหาร</label>
                                     <div class="col-sm-6">
                                         <input id="ManagementPositions" name="ManagementPositions" type="text"
-                                               placeholder="" class="form-control input-md" required="true">
+                                               placeholder="" class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -209,7 +210,7 @@ include "views/header_top.php"; ?>
                                     <label class="col-sm-4 control-label" for="School">ภาควิชา/สาขาวิชา</label>
                                     <div class="col-sm-6">
                                         <input id="School" name="School" type="text" placeholder=""
-                                               class="form-control input-md" required="true">
+                                               class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -219,7 +220,7 @@ include "views/header_top.php"; ?>
                                     <label class="col-sm-4 control-label" for="textinput">คณะ</label>
                                     <div class="col-sm-6">
                                         <input id="textinput" name="textinput" type="text" placeholder=""
-                                               class="form-control input-md" required="true">
+                                               class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -230,7 +231,7 @@ include "views/header_top.php"; ?>
                                         สาขาวิชา</label>
                                     <div class="col-sm-6">
                                         <input id="WorkSchoolin" name="WorkSchoolin" type="text" placeholder=""
-                                               class="form-control input-md" required="true">
+                                               class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -240,7 +241,7 @@ include "views/header_top.php"; ?>
                                     <label class="col-sm-4 control-label" for="University">มหาวิทยาลัย/สถาบัน</label>
                                     <div class="col-sm-6">
                                         <input id="University" name="University" type="text" placeholder=""
-                                               class="form-control input-md" required="true">
+                                               class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -252,7 +253,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="AddressNo">บ้านเลขที่่</label>
                                         <div class="col-sm-6">
                                             <input id="AddressNo" name="AddressNo" type="text" placeholder=""
-                                                   class="form-control input-md" required="true">
+                                                   class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -262,7 +263,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="AddressRoad">ถนน</label>
                                         <div class="col-sm-6">
                                             <input id="AddressRoad" name="AddressRoad" type="text" placeholder=""
-                                                   class="form-control input-md">
+                                                   class="form-control input-sm">
 
                                         </div>
                                     </div>
@@ -272,7 +273,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="AddressSubDistrict">แขวง/ตำบล</label>
                                         <div class="col-sm-6">
                                             <input id="AddressSubDistrict" name="AddressSubDistrict" type="text"
-                                                   placeholder="" class="form-control input-md" required="true">
+                                                   placeholder="" class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -282,7 +283,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="AddressDistrict">เขต/อำเภอ</label>
                                         <div class="col-sm-6">
                                             <input id="AddressDistrict" name="AddressDistrict" type="text"
-                                                   placeholder="" class="form-control input-md" required="true">
+                                                   placeholder="" class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -292,7 +293,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="AddressProvince">จังหวัด</label>
                                         <div class="col-sm-6">
                                             <input id="AddressProvince" name="AddressProvince" type="text"
-                                                   placeholder="" class="form-control input-md" required="true">
+                                                   placeholder="" class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -303,7 +304,7 @@ include "views/header_top.php"; ?>
                                                for="AddressProvinceCode">รหัสไปรษณีย์</label>
                                         <div class="col-sm-6">
                                             <input id="AddressProvinceCode" name="AddressProvinceCode" type="text"
-                                                   placeholder="" class="form-control input-md" required="true">
+                                                   placeholder="" class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -322,7 +323,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="TelHome">โทรศัพท์</label>
                                         <div class="col-sm-6">
                                             <input id="TelHome" name="TelHome" type="text" placeholder=""
-                                                   class="form-control input-md">
+                                                   class="form-control input-sm">
 
                                         </div>
                                     </div>
@@ -332,7 +333,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="TelFax">โทรสาร</label>
                                         <div class="col-sm-6">
                                             <input id="TelFax" name="TelFax" type="text" placeholder=""
-                                                   class="form-control input-md">
+                                                   class="form-control input-sm">
 
                                         </div>
                                     </div>
@@ -343,7 +344,7 @@ include "views/header_top.php"; ?>
                                                for="TelPhoneNumber">โทรศัพท์มือถือ</label>
                                         <div class="col-sm-6">
                                             <input id="TelPhoneNumber" name="TelPhoneNumber" type="text" placeholder=""
-                                                   class="form-control input-md" required="true">
+                                                   class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -353,7 +354,7 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label" for="Email">E-mail</label>
                                         <div class="col-sm-6">
                                             <input id="Email" name="Email" type="text" placeholder=""
-                                                   class="form-control input-md" required="true">
+                                                   class="form-control input-sm" required="true">
 
                                         </div>
                                     </div>
@@ -395,7 +396,7 @@ include "views/header_top.php"; ?>
                                     <label class="col-sm-4 control-label" for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
                                     <div class="col-sm-6">
                                         <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text" placeholder=""
-                                               class="form-control input-md" required="true">
+                                               class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -560,7 +561,7 @@ include "views/header_top.php"; ?>
                                     <label class="col-sm-4 control-label" for="CongenitalDiseaseDetails">โปรดระบุโรคประจำตัว</label>
                                     <div class="col-sm-6">
                                         <input id="CongenitalDiseaseDetails" name="CongenitalDiseaseDetails" type="text"
-                                               placeholder="" class="form-control input-md" required="true">
+                                               placeholder="" class="form-control input-sm" required="true">
 
                                     </div>
                                 </div>
@@ -637,7 +638,7 @@ include "views/header_top.php"; ?>
                                 <div class="form-group">
                                     <label class="col-md-6 control-label" for="checkboxesAccept">
                                         ข้าพเจ้าขอรับรองว่าข้อมูลดังกล่าวข้างต้นเป็นความจริงทุกประการ</label>
-                                   
+
                                     <div class="col-md-6">
                                         <label class="checkbox-inline" for="checkboxesAccept-0">
                                             <input type="checkbox" name="checkboxesAccept" id="checkboxesAccept-0"
