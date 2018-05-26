@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title> .: กำหนดการอบรม : TACE Activity :. </title>
+    <title> .: การเดินทางและที่พัก : TACE Activity :. </title>
 
 
     <?php /* header_meta */include "views/meta.php";?>
@@ -45,10 +45,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center heading-section animate-box fadeInUp animated">
-						<h3>กำหนดการอบรม</h3>
-						<p>(ร่าง) กำหนดการอบรมเชิงปฏิบัติการสหกิจศึกษา หลักสูตร "คณาจารย์นิเทศสหกิจศึกษา"</p>
+						<h3>ที่พักและการเดินทาง</h3>
+						<p> ห้องมิตรภาพ </p>
 
-                        <img src="views/images/TimeTable.png" width="800px">
+                       <p>ห้องมิตรภาพ ห้องประชุมขนาดกลางรองลงมาจากห้องไทรงาม สามารถจุคนได้ 120 คน
+                       <br/>เหมาะสำหรับงานวิชาการ หรืองานจัดเลี้ยงที่มีขนาดปานกลาง
+                       <br/>ห้องประชุมสามารถเลือกสไตล์การตกแต่งได้ตามที่ลูกค้าต้องการ 
+                       <br/>ด้วยทีมงานออแกไนซ์มืออาชีพของเรา 
+                       <br/>ลูกค้าสามารถเลือกอาหารหรือเครื่องดื่ม
+                       <br/>ในการจัดงานตามความต้องการของท่านเองได้อย่างง่ายดาย</p>
+        
+                        <img src="https://www.simathani.com/uploads/6075/images/meeting_and_conference/Mittraphap.jpg" width="800px">
                         
 					</div>
 				</div>
