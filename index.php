@@ -50,6 +50,9 @@
 
 			<!-- Put Each Section Here -->
 
+        
+		</div>
+
 			<div id="fh5co-blog-section" class="fh5co-section-gray">
 				<div class="container">
 					<div class="row">
@@ -70,7 +73,7 @@
 										<span class="posted_by">Sep. 15th</span>
 										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
 										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">ลงทะเบียน</a></p>
+										<p><a href="#">สมัครเข้าอบรม</a></p>
 									</div>
 								</div>
 							</div>
@@ -84,7 +87,7 @@
 										<span class="posted_by">Sep. 15th</span>
 										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
 										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">ลงทะเบียน</a></p>
+										<p><a href="#">สมัครเข้าอบรม</a></p>
 									</div>
 								</div>
 							</div>
@@ -99,7 +102,7 @@
 										<span class="posted_by">Sep. 15th</span>
 										<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
 										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<p><a href="#">ลงทะเบียน</a></p>
+										<p><a href="#">สมัครเข้าอบรม</a></p>
 									</div>
 								</div>
 							</div>
@@ -116,6 +119,52 @@
 				</div>
 			</div>
 
+            <div id="fh5co-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-profile-male"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>บทเรียนออนไลน์</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+								<p><a href="#">รายละเอียด</a></p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-happy"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>ข้อมูลที่พัก/การเดินทาง</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+								<p><a href="#">รายละเอียด</a></p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-wallet"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>กำหนดการ</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+								<p><a href="#">รายละเอียด</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
             
 
 			<!-- Put Each Section Here -->
@@ -123,28 +172,14 @@
 			<?php /* footer_ui */include "views/footer_ui.php";?>
 
 		</div>
+
+        
 		<!-- END fh5co-page -->
 	</div>
 	<!-- END fh5co-wrapper -->
 
     <?php /* footer */include "views/footer.php";?>
-    
 
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog">
-            <div class="loginmodal-container">
-                <h1>Login to Your Account</h1><br>
-                <form>
-                <input type="text" name="user" placeholder="Username">
-                <input type="password" name="pass" placeholder="Password">
-                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
-                </form>
-                <div class="login-help">
-                <a href="#">Register</a> - <a href="#">Forgot Password</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
 </body>
     

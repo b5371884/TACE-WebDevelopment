@@ -28,6 +28,11 @@
                     <li class="active">
                         <a href="index.html">Home</a>
                     </li>
+
+                    <!-- <li class="active">
+                        <a href="#">ข้อมูลที่พัก/การเดินทาง</a>
+                    </li> -->
+
                     <!-- <li>
                         <a href="#" class="fh5co-sub-ddown">Get Involved</a>
                         <ul class="fh5co-sub-menu">
