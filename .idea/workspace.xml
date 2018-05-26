@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db039446-c257-46f2-8915-1cd77bc9cf41" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PaymentMethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register_temp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterCourse.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegisterCourse.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterCourse.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegisterCourse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="97" column="48" lean-forward="true" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+            <state relative-caret-position="310">
+              <caret line="604" column="44" selection-start-line="604" selection-start-column="44" selection-end-line="605" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentMethod.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaymentMethod.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -27,13 +34,19 @@
       <file leaf-file-name="RegisterCourseSeries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegisterCourseSeries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045" />
+            <state relative-caret-position="311">
+              <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentMethod.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PaymentMethod.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="64" column="105" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="105" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -51,6 +64,7 @@
       <list>
         <option value="$USER_HOME$/Downloads/Register (2).html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/PaymentMethod.php" />
         <option value="$PROJECT_DIR$/RegisterCourse.php" />
       </list>
     </option>
@@ -94,6 +108,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -118,15 +137,16 @@
       <updated>1527315367013</updated>
       <workItem from="1527315369633" duration="410000" />
       <workItem from="1527316085071" duration="8518000" />
-      <workItem from="1527334320769" duration="522000" />
+      <workItem from="1527334320769" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9450000" />
+    <option name="totallyTimeSpent" value="9764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2013889" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -164,32 +184,41 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Register (2).html" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegisterCourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="97" column="48" lean-forward="true" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Register_temp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1072" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegisterCourseSeries.php">
+    <entry file="file://$PROJECT_DIR$/PaymentMethod.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045" />
+        <state relative-caret-position="248">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaymentMethod.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterCourseSeries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="64" column="105" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="604" column="44" selection-start-line="604" selection-start-column="44" selection-end-line="605" selection-end-column="53" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
