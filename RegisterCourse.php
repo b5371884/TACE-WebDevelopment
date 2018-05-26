@@ -601,7 +601,7 @@ include "views/header_top.php"; ?>
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="ButtonSave">ยืนยันการลงทะเบียน</label>
                                     <div class="col-md-8">
-                                        <a href="PaymentMethod.php.php" class="btn btn-success btn-lg"> ลงทะเบียน </a>
+                                        <a href="PaymentMethod.php" class="btn btn-success btn-lg"> ลงทะเบียน </a>
 <!--                                        <button id="ButtonSave" name="ButtonSave" class="btn btn-success">บันทึกข้อมูล-->
 <!--                                        </button>-->
                                         <button id="ButtonCancle" name="ButtonCancle" class="btn btn-danger">ยกเลิก
