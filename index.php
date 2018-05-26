@@ -110,11 +110,11 @@
 						<div class="clearfix visible-md-block"></div>
 					</div>
 
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-4 col-md-offset-4 text-center animate-box fadeInUp animated">
 							<a href="#" class="btn btn-primary btn-lg"> Register </a>
 						</div>
-					</div>
+					</div> -->
 
 				</div>
 			</div>
@@ -156,9 +156,9 @@
 								<i class="icon-wallet"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>กำหนดการ</h3>
+								<h3>กำหนดการเข้าอบรม รุ่นที่ </h3>
 								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">รายละเอียด</a></p>
+								<p><a href="ScheduleDetails.php">รายละเอียด</a></p>
 							</div>
 						</div>
 					</div>
