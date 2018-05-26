@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db039446-c257-46f2-8915-1cd77bc9cf41" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Register_temp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register_temp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterCourse.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="RegisterCourse.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegisterCourse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="490" column="38" selection-start-line="490" selection-start-column="38" selection-end-line="490" selection-end-column="38" />
+            <state relative-caret-position="573">
+              <caret line="639" column="35" selection-start-line="639" selection-start-column="35" selection-end-line="639" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -96,12 +96,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527315367013</updated>
       <workItem from="1527315369633" duration="410000" />
-      <workItem from="1527316085071" duration="6046000" />
+      <workItem from="1527316085071" duration="7181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6456000" />
+    <option name="totallyTimeSpent" value="7591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -144,8 +144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RegisterCourse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="490" column="38" selection-start-line="490" selection-start-column="38" selection-end-line="490" selection-end-column="38" />
+        <state relative-caret-position="573">
+          <caret line="639" column="35" selection-start-line="639" selection-start-column="35" selection-end-line="639" selection-end-column="35" />
         </state>
       </provider>
     </entry>

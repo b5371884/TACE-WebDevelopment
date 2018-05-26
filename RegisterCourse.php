@@ -619,29 +619,44 @@ include "views/header_top.php"; ?>
 
                                 <!-- Multiple Checkboxes (inline) -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="checkboxesSleep">ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ
+                                    <label class="col-md-6 control-label" for="checkboxesSleep">
+                                        ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ
                                         ซึ่งข้าพเจ้าสามารถพักค้าง ณ
                                         โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3.5 วัน</label>
+                                    <br>
                                     <div class="col-md-4">
                                         <label class="checkbox-inline" for="checkboxesSleep-0">
                                             <input type="checkbox" name="checkboxesSleep" id="checkboxesSleep-0"
                                                    value="1">
-                                            1
+                                            สามารถอยู่อบรมได้
                                         </label>
 
                                     </div>
                                 </div>
                                 <!-- Multiple Checkboxes (inline) -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="checkboxesAccept">
+                                    <label class="col-md-6 control-label" for="checkboxesAccept">
                                         ข้าพเจ้าขอรับรองว่าข้อมูลดังกล่าวข้างต้นเป็นความจริงทุกประการ</label>
-                                    <div class="col-md-4">
+                                   
+                                    <div class="col-md-6">
                                         <label class="checkbox-inline" for="checkboxesAccept-0">
                                             <input type="checkbox" name="checkboxesAccept" id="checkboxesAccept-0"
                                                    value="1">
-                                            1
+                                            เป็นความจริงทุกประการ
                                         </label>
 
+                                    </div>
+                                </div>
+
+
+                                <!-- Button (Double) -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="ButtonSave">ยืนยันการลงทะเบียน</label>
+                                    <div class="col-md-8">
+                                        <button id="ButtonSave" name="ButtonSave" class="btn btn-success">บันทึกข้อมูล
+                                        </button>
+                                        <button id="ButtonCancle" name="ButtonCancle" class="btn btn-danger">ยกเลิก
+                                        </button>
                                     </div>
                                 </div>
 
