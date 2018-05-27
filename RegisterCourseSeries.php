@@ -68,7 +68,7 @@
                         <div class="row row-bottom-padded-md">
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="fh5co-blog animate-box fadeInUp animated">
-                                    <a href="#"><img class="img-responsive" src="images/cover_bg_1.jpg" alt=""></a>
+<!--                                    <a href="#"><img class="img-responsive" src="images/cover_bg_1.jpg" alt=""></a>-->
                                     <div class="blog-text">
                                         <div class="prod-title">
                                             <h3><a href="" #=""> รุ่นที่ 1 </a></h3>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="fh5co-blog animate-box fadeInUp animated">
-                                    <a href="#"><img class="img-responsive" src="images/cover_bg_2.jpg" alt=""></a>
+<!--                                    <a href="#"><img class="img-responsive" src="images/cover_bg_2.jpg" alt=""></a>-->
                                     <div class="blog-text">
                                         <div class="prod-title">
                                             <h3><a href="" #=""> รุ่นที่ 2 </a></h3>
@@ -99,7 +99,7 @@
                             <div class="clearfix visible-sm-block"></div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="fh5co-blog animate-box fadeInUp animated">
-                                    <a href="#"><img class="img-responsive" src="images/cover_bg_3.jpg" alt=""></a>
+<!--                                    <a href="#"><img class="img-responsive" src="images/cover_bg_3.jpg" alt=""></a>-->
                                     <div class="blog-text">
                                         <div class="prod-title">
                                             <h3><a href="" #=""> รุ่นที่ 3 </a></h3>

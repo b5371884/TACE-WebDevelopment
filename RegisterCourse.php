@@ -68,7 +68,6 @@ include "views/header_top.php"; ?>
         <!-- end:title -->
 
         <!-- insert register form -->
-
         <div id="fh5co-portfolio">
             <div class="container">
                 <div class="row">
@@ -76,8 +75,8 @@ include "views/header_top.php"; ?>
                         <form class="form-horizontal">
                             <fieldset>
                                 <!-- Form Name -->
-                                <legend>ส่วนที่ 1 ข้อมูส่วนตัว</legend>
-                                <!-- Multiple Radios (inline) -->
+                                <legend>ส่วนที่ 1 ข้อมูลส่วนตัว</legend>
+                                <!--NameTitle Multiple Radios (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="radios">คำนำหน้าชื่อ</label>
                                     <div class="col-md-6">
@@ -94,11 +93,9 @@ include "views/header_top.php"; ?>
                                             <input type="radio" name="NameTitle" id="NameTitle-2" value="Miss">
                                             นางสาว
                                         </label>
-
                                     </div>
                                 </div>
-
-                                <!-- Text input-->
+                                <!-- FirstName input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label" for="FirstName">ชื่อ</label>
                                     <div class="col-sm-6">
@@ -106,7 +103,7 @@ include "views/header_top.php"; ?>
                                                class="form-control input-sm" required="true">
                                     </div>
                                 </div>
-                                <!-- Text input-->
+                                <!-- LastName input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label" for="LastName">นามสกุล</label>
                                     <div class="col-sm-6">
@@ -115,9 +112,7 @@ include "views/header_top.php"; ?>
 
                                     </div>
                                 </div>
-
-
-                                <!-- Multiple Radios (inline) -->
+                                <!-- SpanOfAge Multiple Radios (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-4 control-label"
                                            for="SpanOfAge">ปัจจุบันท่านมีอายุอยู่ในระหว่าง</label>
@@ -147,7 +142,7 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <!-- Text input-->
+                                <!-- br Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"></label>
                                     <div class="col-sm-6">
@@ -155,7 +150,7 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <!-- Multiple Radios (inline) -->
+                                <!-- AcademicPositions Multiple Radios (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-4 control-label"
                                            for="AcademicPositions">ตำแหน่งทางวิชาการ</label>
@@ -193,7 +188,7 @@ include "views/header_top.php"; ?>
 
                                     </div>
                                 </div>
-                                <!-- Text input-->
+                                <!-- ManagementPositions Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"
                                            for="ManagementPositions">ตำแหน่งบริหาร</label>
@@ -203,40 +198,32 @@ include "views/header_top.php"; ?>
 
                                     </div>
                                 </div>
-
-                                <!-- Text input-->
+                                <!-- School Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label" for="School">ภาควิชา/สาขาวิชา</label>
                                     <div class="col-sm-6">
                                         <input id="School" name="School" type="text" placeholder=""
                                                class="form-control input-sm" required="true">
-
                                     </div>
                                 </div>
-
-                                <!-- Text input-->
+                                <!-- Faculty Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="textinput">คณะ</label>
+                                    <label class="col-sm-4 control-label" for="Faculty">คณะ</label>
                                     <div class="col-sm-6">
-                                        <input id="textinput" name="textinput" type="text" placeholder=""
+                                        <input id="Faculty" name="Faculty" type="text" placeholder=""
                                                class="form-control input-sm" required="true">
-
                                     </div>
                                 </div>
-
-                                <!-- Text input-->
+                                <!-- WorkSchoolin Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="WorkSchoolin">เป็นอาจารย์ประจำ
-                                        ภาควิชา /
-                                        สาขาวิชา</label>
+                                    <label class="col-sm-4 control-label" for="WorkSchoolin">
+                                        เป็นอาจารย์ประจำ ภาควิชา/สาขาวิชา</label>
                                     <div class="col-sm-6">
                                         <input id="WorkSchoolin" name="WorkSchoolin" type="text" placeholder=""
                                                class="form-control input-sm" required="true">
-
                                     </div>
                                 </div>
-
-                                <!-- Text input-->
+                                <!-- UniversityText input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"
                                            for="University">มหาวิทยาลัย/สถาบัน</label>
@@ -248,8 +235,8 @@ include "views/header_top.php"; ?>
                                 </div>
 
                                 <h4><br>ช่องทางการติดต่อ</h4>
-
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressNo Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="AddressNo">บ้านเลขที่่</label>
@@ -260,29 +247,30 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressRoadText input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="AddressRoad">ถนน</label>
                                         <div class="col-sm-6">
                                             <input id="AddressRoad" name="AddressRoad" type="text"
                                                    placeholder=""
                                                    class="form-control input-sm">
-
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressSubDistrictText input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="AddressSubDistrict">แขวง/ตำบล</label>
                                         <div class="col-sm-6">
                                             <input id="AddressSubDistrict" name="AddressSubDistrict" type="text"
                                                    placeholder="" class="form-control input-sm" required="true">
-
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressDistrict Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="AddressDistrict">เขต/อำเภอ</label>
@@ -293,7 +281,8 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressProvince Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="AddressProvince">จังหวัด</label>
@@ -304,7 +293,8 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- AddressProvinceCode Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="AddressProvinceCode">รหัสไปรษณีย์</label>
@@ -317,7 +307,7 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <!-- Text input-->
+                                <!-- br Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"></label>
                                     <div class="col-sm-6">
@@ -325,7 +315,8 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- TelHome Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="TelHome">โทรศัพท์</label>
                                         <div class="col-sm-6">
@@ -335,7 +326,8 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- TelFax Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="TelFax">โทรสาร</label>
                                         <div class="col-sm-6">
@@ -345,7 +337,8 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6"><!-- Text input-->
+                                <!-- TelPhoneNumber Text input-->
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label"
                                                for="TelPhoneNumber">โทรศัพท์มือถือ</label>
@@ -357,18 +350,18 @@ include "views/header_top.php"; ?>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Email Text input-->
                                 <div class="col-sm-6"><!-- Text input-->
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="Email">E-mail</label>
                                         <div class="col-sm-6">
                                             <input id="Email" name="Email" type="text" placeholder=""
                                                    class="form-control input-sm" required="true">
-
                                         </div>
                                     </div>
                                 </div>
 
-                                <!-- Text input-->
+                                <!-- br Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"></label>
                                     <div class="col-sm-6">
@@ -378,38 +371,40 @@ include "views/header_top.php"; ?>
 
                                 <legend>ส่วนที่ 2 เกี่ยวกับงานสหกิจศึกษา</legend>
 
-                                <!-- Multiple Radios -->
+                                <!-- WorkInCoop Multiple Radios -->
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="WorkInCoop">ปัจจุบันทำงานเกี่ยวข้องกับสหกิจศึกษาหรือไม่</label>
                                     <div class="col-md-4">
-                                        <div class="radio">
-                                            <label for="WorkInCoop-0">
-                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-0"
-                                                       value="1"
-                                                       checked="checked">
-                                                เกี่ยวข้อง
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label for="WorkInCoop-1">
-                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-1"
-                                                       value="2">
-                                                ไม่เกี่ยวข้อง
-                                            </label>
-                                        </div>
-
+                                        <input type="radio" name="WorkInCoop" id="WorkInCoop-0" value="0"
+                                               checked="checked"> ไม่เกี่ยวข้อง <br>
+                                        <input type="radio" name="WorkInCoop" id="WorkInCoop-1" value="1"
+                                               checked="checked"> เกี่ยวข้อง <br>
+                                        <!--                                        <div class="radio">-->
+                                        <!--                                            <label for="WorkInCoop-0">-->
+                                        <!--                                                <input type="radio" name="WorkInCoop" value="1"-->
+                                        <!--                                                       checked="checked">-->
+                                        <!--                                                เกี่ยวข้อง-->
+                                        <!--                                            </label>-->
+                                        <!--                                        </div>-->
+                                        <!--                                        <div class="radio">-->
+                                        <!--                                            <label for="WorkInCoop-1">-->
+                                        <!--                                                <input type="radio" name="WorkInCoop" value="2">-->
+                                        <!--                                                ไม่เกี่ยวข้อง-->
+                                        <!--                                            </label>-->
+                                        <!--                                        </div>-->
                                     </div>
                                 </div>
 
-                                <!-- Text input-->
+<!--                                <input type="text" id="WorkInCoopDuty" name="WorkInCoopDuty" placeholder=""-->
+<!--                                       class="form-control input-sm" required="true">-->
+
+                                <!-- WorkInCoopDuty Text input-->
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label"
                                            for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
                                     <div class="col-sm-6">
                                         <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
-                                               placeholder=""
-                                               class="form-control input-sm" required="true">
-
+                                               placeholder="" class="form-control input-sm" required="true">
                                     </div>
                                 </div>
 
@@ -649,8 +644,37 @@ include "views/header_top.php"; ?>
         </div>
         <!-- end register form -->
 
-        <!-- Put Each Section Here -->
+        <script src="jquery-1.11.0.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!-- WorkInCoop radio script -->
+        <script>
+            $(document).ready(function () {
+                $('input[name="WorkInCoop"]').click(function () {
+                    var value = $(this).val();
+                    if (value == '1') {
+                        $('#WorkInCoopDuty').show();
+                    }
+                    else {
+                        $('#WorkInCoopDuty').hide();
+                    }
+                });
+            });
+        </script>
 
+        <!-- WorkInCoopDuty Text input-->
+        <div id="WorkInCoopDuty">
+            <div class="form-group">
+                <label class="col-sm-4 control-label"
+                       for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
+                <div class="col-sm-6">
+                    <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
+                           placeholder=""
+                           class="form-control input-sm" required="true">
+                </div>
+            </div>
+        </div>
+
+        <!-- Put Each Section Here -->
 
         <?php /* footer_ui */
         include "views/footer_ui.php"; ?>
