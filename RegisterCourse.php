@@ -53,43 +53,31 @@ include "views/header_top.php"; ?>
         <!-- end:header-top -->
 
         <!-- insert title -->
-
-<!--        <div id="fh5co-feature-product" class="fh5co-section-gray">-->
-<!--            <div class="container">-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-        <!-- end:title -->
-
-
-        <div id="fh5co-features" class="fh5co-section-gray">
+        <div id="fh5co-blog-section" class="fh5co-section-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center heading-section">
+                    <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
                         <h1>แบบลงทะเบียน</h1>
                         <p>การฝึกอบรมเชิงปฏิบัติการสหกิจศึกษา รุ่นที่ XX</br>
                             หลักสูตร XXXX</br>
                             ระหว่างวันที่ XX XXX XXXX</p>
                     </div>
-                    <!--
-                    <div class="row row-bottom-padded-md">
-                        <div class="col-md-12 text-center animate-box">
-                            <p><img src="images/cover_bg_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"></p>
-                        </div>
-                    </div>
-                    -->
                 </div>
+            </div>
+        </div>
+        <!-- end:title -->
+
+        <!-- insert register form -->
+
+        <div id="fh5co-portfolio">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-
                         <form class="form-horizontal">
                             <fieldset>
-
                                 <!-- Form Name -->
                                 <legend>ส่วนที่ 1 ข้อมูส่วนตัว</legend>
-
                                 <!-- Multiple Radios (inline) -->
-
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="radios">คำนำหน้าชื่อ</label>
                                     <div class="col-md-6">
@@ -111,43 +99,48 @@ include "views/header_top.php"; ?>
                                 </div>
 
                                 <!-- Text input-->
-                                    <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="FirstName">ชื่อ</label>
-                                        <div class="col-sm-6">
-                                            <input id="FirstName" name="FirstName" type="text" placeholder=""
-                                                   class="form-control input-sm" required="true">
-                                        </div>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="FirstName">ชื่อ</label>
+                                    <div class="col-sm-6">
+                                        <input id="FirstName" name="FirstName" type="text" placeholder=""
+                                               class="form-control input-sm" required="true">
                                     </div>
-                               <!-- Text input-->
-                                    <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="LastName">นามสกุล</label>
-                                        <div class="col-sm-6">
-                                            <input id="LastName" name="LastName" type="text" placeholder=""
-                                                   class="form-control input-sm" required="true">
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="LastName">นามสกุล</label>
+                                    <div class="col-sm-6">
+                                        <input id="LastName" name="LastName" type="text" placeholder=""
+                                               class="form-control input-sm" required="true">
 
-                                        </div>
                                     </div>
-                                
+                                </div>
+
 
                                 <!-- Multiple Radios (inline) -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="SpanOfAge">ปัจจุบันท่านมีอายุอยู่ในระหว่าง</label>
+                                    <label class="col-md-4 control-label"
+                                           for="SpanOfAge">ปัจจุบันท่านมีอายุอยู่ในระหว่าง</label>
                                     <div class="col-md-6">
                                         <label class="radio-inline" for="SpanOfAge-0">
-                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-0" value="LessThan25"
+                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-0"
+                                                   value="LessThan25"
                                                    checked="checked">
                                             น้อยกว่า 25 ปี
                                         </label>
                                         <label class="radio-inline" for="SpanOfAge-1">
-                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-1" value="25to35">
+                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-1"
+                                                   value="25to35">
                                             25 - 35 ปี
                                         </label>
                                         <label class="radio-inline" for="SpanOfAge-2">
-                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-2" value="36to45">
+                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-2"
+                                                   value="36to45">
                                             36 - 45 ปี
                                         </label>
                                         <label class="radio-inline" for="SpanOfAge-3">
-                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-3" value="GreaterThan45">
+                                            <input type="radio" name="SpanOfAge" id="SpanOfAge-3"
+                                                   value="GreaterThan45">
                                             มากกว่า 45 ปี
                                         </label>
 
@@ -168,27 +161,32 @@ include "views/header_top.php"; ?>
                                            for="AcademicPositions">ตำแหน่งทางวิชาการ</label>
                                     <div class="col-md-6">
                                         <label class="radio-inline" for="AcademicPositions-0">
-                                            <input type="radio" name="AcademicPositions" id="AcademicPositions-0"
+                                            <input type="radio" name="AcademicPositions"
+                                                   id="AcademicPositions-0"
                                                    value="No" checked="checked">
                                             ไม่มี
                                         </label>
                                         <label class="radio-inline" for="AcademicPositions-1">
-                                            <input type="radio" name="AcademicPositions" id="AcademicPositions-1"
+                                            <input type="radio" name="AcademicPositions"
+                                                   id="AcademicPositions-1"
                                                    value="Lecturer">
                                             อาจารย์
                                         </label>
                                         <label class="radio-inline" for="AcademicPositions-2">
-                                            <input type="radio" name="AcademicPositions" id="AcademicPositions-2"
+                                            <input type="radio" name="AcademicPositions"
+                                                   id="AcademicPositions-2"
                                                    value="AssistantProfessor">
                                             ผู้ช่วยศาสตรจารย์
                                         </label>
                                         <label class="radio-inline" for="AcademicPositions-3">
-                                            <input type="radio" name="AcademicPositions" id="AcademicPositions-3"
+                                            <input type="radio" name="AcademicPositions"
+                                                   id="AcademicPositions-3"
                                                    value="AssociateProfessor">
                                             รองศาสตราจารย์
                                         </label>
                                         <label class="radio-inline" for="AcademicPositions-4">
-                                            <input type="radio" name="AcademicPositions" id="AcademicPositions-4"
+                                            <input type="radio" name="AcademicPositions"
+                                                   id="AcademicPositions-4"
                                                    value="Professor">
                                             ศาสตราจารย์
                                         </label>
@@ -228,7 +226,8 @@ include "views/header_top.php"; ?>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="WorkSchoolin">เป็นอาจารย์ประจำ ภาควิชา /
+                                    <label class="col-sm-4 control-label" for="WorkSchoolin">เป็นอาจารย์ประจำ
+                                        ภาควิชา /
                                         สาขาวิชา</label>
                                     <div class="col-sm-6">
                                         <input id="WorkSchoolin" name="WorkSchoolin" type="text" placeholder=""
@@ -239,7 +238,8 @@ include "views/header_top.php"; ?>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="University">มหาวิทยาลัย/สถาบัน</label>
+                                    <label class="col-sm-4 control-label"
+                                           for="University">มหาวิทยาลัย/สถาบัน</label>
                                     <div class="col-sm-6">
                                         <input id="University" name="University" type="text" placeholder=""
                                                class="form-control input-sm" required="true">
@@ -251,7 +251,8 @@ include "views/header_top.php"; ?>
 
                                 <div class="col-sm-6"><!-- Text input-->
                                     <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="AddressNo">บ้านเลขที่่</label>
+                                        <label class="col-sm-4 control-label"
+                                               for="AddressNo">บ้านเลขที่่</label>
                                         <div class="col-sm-6">
                                             <input id="AddressNo" name="AddressNo" type="text" placeholder=""
                                                    class="form-control input-sm" required="true">
@@ -263,7 +264,8 @@ include "views/header_top.php"; ?>
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="AddressRoad">ถนน</label>
                                         <div class="col-sm-6">
-                                            <input id="AddressRoad" name="AddressRoad" type="text" placeholder=""
+                                            <input id="AddressRoad" name="AddressRoad" type="text"
+                                                   placeholder=""
                                                    class="form-control input-sm">
 
                                         </div>
@@ -271,7 +273,8 @@ include "views/header_top.php"; ?>
                                 </div>
                                 <div class="col-sm-6"><!-- Text input-->
                                     <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="AddressSubDistrict">แขวง/ตำบล</label>
+                                        <label class="col-sm-4 control-label"
+                                               for="AddressSubDistrict">แขวง/ตำบล</label>
                                         <div class="col-sm-6">
                                             <input id="AddressSubDistrict" name="AddressSubDistrict" type="text"
                                                    placeholder="" class="form-control input-sm" required="true">
@@ -281,7 +284,8 @@ include "views/header_top.php"; ?>
                                 </div>
                                 <div class="col-sm-6"><!-- Text input-->
                                     <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="AddressDistrict">เขต/อำเภอ</label>
+                                        <label class="col-sm-4 control-label"
+                                               for="AddressDistrict">เขต/อำเภอ</label>
                                         <div class="col-sm-6">
                                             <input id="AddressDistrict" name="AddressDistrict" type="text"
                                                    placeholder="" class="form-control input-sm" required="true">
@@ -291,7 +295,8 @@ include "views/header_top.php"; ?>
                                 </div>
                                 <div class="col-sm-6"><!-- Text input-->
                                     <div class="form-group">
-                                        <label class="col-sm-4 control-label" for="AddressProvince">จังหวัด</label>
+                                        <label class="col-sm-4 control-label"
+                                               for="AddressProvince">จังหวัด</label>
                                         <div class="col-sm-6">
                                             <input id="AddressProvince" name="AddressProvince" type="text"
                                                    placeholder="" class="form-control input-sm" required="true">
@@ -304,7 +309,8 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label"
                                                for="AddressProvinceCode">รหัสไปรษณีย์</label>
                                         <div class="col-sm-6">
-                                            <input id="AddressProvinceCode" name="AddressProvinceCode" type="text"
+                                            <input id="AddressProvinceCode" name="AddressProvinceCode"
+                                                   type="text"
                                                    placeholder="" class="form-control input-sm" required="true">
 
                                         </div>
@@ -344,7 +350,8 @@ include "views/header_top.php"; ?>
                                         <label class="col-sm-4 control-label"
                                                for="TelPhoneNumber">โทรศัพท์มือถือ</label>
                                         <div class="col-sm-6">
-                                            <input id="TelPhoneNumber" name="TelPhoneNumber" type="text" placeholder=""
+                                            <input id="TelPhoneNumber" name="TelPhoneNumber" type="text"
+                                                   placeholder=""
                                                    class="form-control input-sm" required="true">
 
                                         </div>
@@ -377,14 +384,16 @@ include "views/header_top.php"; ?>
                                     <div class="col-md-4">
                                         <div class="radio">
                                             <label for="WorkInCoop-0">
-                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-0" value="1"
+                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-0"
+                                                       value="1"
                                                        checked="checked">
                                                 เกี่ยวข้อง
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="WorkInCoop-1">
-                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-1" value="2">
+                                                <input type="radio" name="WorkInCoop" id="WorkInCoop-1"
+                                                       value="2">
                                                 ไม่เกี่ยวข้อง
                                             </label>
                                         </div>
@@ -394,9 +403,11 @@ include "views/header_top.php"; ?>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
+                                    <label class="col-sm-4 control-label"
+                                           for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
                                     <div class="col-sm-6">
-                                        <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text" placeholder=""
+                                        <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
+                                               placeholder=""
                                                class="form-control input-sm" required="true">
 
                                     </div>
@@ -408,26 +419,30 @@ include "views/header_top.php"; ?>
                                     <div class="col-md-4">
                                         <div class="radio">
                                             <label for="WorkCoopExp-0">
-                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-0" value="1"
+                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-0"
+                                                       value="1"
                                                        checked="checked">
                                                 ไม่มีประสบการณ์
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="WorkCoopExp-1">
-                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-1" value="2">
+                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-1"
+                                                       value="2">
                                                 น้อยกว่า 1 ปี
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="WorkCoopExp-2">
-                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-2" value="3">
+                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-2"
+                                                       value="3">
                                                 1 - 2 ปี
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="WorkCoopExp-3">
-                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-3" value="4">
+                                                <input type="radio" name="WorkCoopExp" id="WorkCoopExp-3"
+                                                       value="4">
                                                 มากกว่า 3 ปี
                                             </label>
                                         </div>
@@ -476,10 +491,12 @@ include "views/header_top.php"; ?>
 
                                 <!-- Textarea -->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="ReasonCoop">โปรดให้เหตุผลและความจำเป็น<br/>ที่ต้องการเข้ารับการฝึกอบรมในหลักสูตร
+                                    <label class="col-sm-4 control-label"
+                                           for="ReasonCoop">โปรดให้เหตุผลและความจำเป็น<br/>ที่ต้องการเข้ารับการฝึกอบรมในหลักสูตร
                                         “คณาจารย์นิเทศ สหกิจศึกษา”</label>
                                     <div class="col-sm-6">
-                                        <textarea id="ReasonCoop" name="ReasonCoop" class="form-control"></textarea>
+                                                <textarea id="ReasonCoop" name="ReasonCoop"
+                                                          class="form-control"></textarea>
 
                                     </div>
                                 </div>
@@ -517,7 +534,8 @@ include "views/header_top.php"; ?>
                                     <label class="col-md-3 control-label" for="Food">ประเภทอาหาร</label>
                                     <div class="col-md-6">
                                         <label class="radio-inline" for="Food-0">
-                                            <input type="radio" name="Food" id="Food-0" value="1" checked="checked">
+                                            <input type="radio" name="Food" id="Food-0" value="1"
+                                                   checked="checked">
                                             อาหารทุกประเภท
                                         </label>
                                         <label class="radio-inline" for="Food-1">
@@ -536,18 +554,21 @@ include "views/header_top.php"; ?>
                                 </div>
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="CongenitalDisease">ท่านมีโรคประจำตัวหรือไม่</label>
+                                    <label class="col-md-4 control-label"
+                                           for="CongenitalDisease">ท่านมีโรคประจำตัวหรือไม่</label>
                                     <div class="col-md-4">
                                         <div class="radio">
                                             <label for="CongenitalDisease-0">
-                                                <input type="radio" name="CongenitalDisease" id="CongenitalDisease-0"
+                                                <input type="radio" name="CongenitalDisease"
+                                                       id="CongenitalDisease-0"
                                                        value="1" checked="checked">
                                                 ไม่มี
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="CongenitalDisease-1">
-                                                <input type="radio" name="CongenitalDisease" id="CongenitalDisease-1"
+                                                <input type="radio" name="CongenitalDisease"
+                                                       id="CongenitalDisease-1"
                                                        value="2">
                                                 มี
                                             </label>
@@ -558,9 +579,11 @@ include "views/header_top.php"; ?>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label" for="CongenitalDiseaseDetails">โปรดระบุโรคประจำตัว</label>
+                                    <label class="col-sm-4 control-label"
+                                           for="CongenitalDiseaseDetails">โปรดระบุโรคประจำตัว</label>
                                     <div class="col-sm-6">
-                                        <input id="CongenitalDiseaseDetails" name="CongenitalDiseaseDetails" type="text"
+                                        <input id="CongenitalDiseaseDetails" name="CongenitalDiseaseDetails"
+                                               type="text"
                                                placeholder="" class="form-control input-sm" required="true">
 
                                     </div>
@@ -572,7 +595,8 @@ include "views/header_top.php"; ?>
                                     <label class="col-md-6 control-label" for="checkboxesSleep">
                                         ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ
                                         ซึ่งสามารถพักค้าง ณ
-                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3 วัน</label>
+                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3
+                                        วัน</label>
                                     <br>
                                     <div class="col-md-4">
                                         <label class="checkbox-inline" for="checkboxesSleep-0">
@@ -590,7 +614,8 @@ include "views/header_top.php"; ?>
 
                                     <div class="col-md-6">
                                         <label class="checkbox-inline" for="checkboxesAccept-0">
-                                            <input type="checkbox" name="checkboxesAccept" id="checkboxesAccept-0"
+                                            <input type="checkbox" name="checkboxesAccept"
+                                                   id="checkboxesAccept-0"
                                                    value="1">
                                             เป็นความจริงทุกประการ
                                         </label>
@@ -601,12 +626,15 @@ include "views/header_top.php"; ?>
 
                                 <!-- Button (Double) -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="ButtonSave">ยืนยันการลงทะเบียน</label>
+                                    <label class="col-md-4 control-label"
+                                           for="ButtonSave">ยืนยันการลงทะเบียน</label>
                                     <div class="col-md-8">
-                                        <a href="PaymentMethod.php" class="btn btn-success btn-lg"> ลงทะเบียน </a>
-<!--                                        <button id="ButtonSave" name="ButtonSave" class="btn btn-success">บันทึกข้อมูล-->
-<!--                                        </button>-->
-                                        <button id="ButtonCancle" name="ButtonCancle" class="btn btn-danger">ยกเลิก
+                                        <a href="PaymentMethod.php" class="btn btn-success btn-lg">
+                                            ลงทะเบียน </a>
+                                        <!--                                        <button id="ButtonSave" name="ButtonSave" class="btn btn-success">บันทึกข้อมูล-->
+                                        <!--                                        </button>-->
+                                        <button id="ButtonCancle" name="ButtonCancle" class="btn btn-danger">
+                                            ยกเลิก
                                         </button>
                                     </div>
                                 </div>
@@ -619,6 +647,8 @@ include "views/header_top.php"; ?>
                 </div>
             </div>
         </div>
+        <!-- end register form -->
+
         <!-- Put Each Section Here -->
 
 

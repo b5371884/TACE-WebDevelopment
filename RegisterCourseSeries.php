@@ -57,7 +57,8 @@
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
                                 <p> การอบรมเชิงปฏิบัติการสหกิจศึกษา </p>
-                                <h3>หลักสูตรการอบรม หลักสูตร "คณาจารย์นิเทศศาสตร์สหกิจศึกษา" </h3>
+                                <h3>หลักสูตรการอบรม </h3>
+                                <h3> "คณาจารย์นิเทศสหกิจศึกษา" </h3>
 
                             </div>
                         </div>
