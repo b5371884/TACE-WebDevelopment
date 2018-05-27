@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db039446-c257-46f2-8915-1cd77bc9cf41" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterCourse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterCourseSeries.php" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterCourseSeries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccommodationDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/AccommodationDetails.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterCourseSeries.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegisterCourseSeries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegisterCourseSeries.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccommodationDetails.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AccommodationDetails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -61,6 +66,7 @@
         <option value="$PROJECT_DIR$/RegisterCourse.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/RegisterCourseSeries.php" />
+        <option value="$PROJECT_DIR$/AccommodationDetails.php" />
       </list>
     </option>
   </component>
@@ -135,12 +141,12 @@
       <workItem from="1527396411128" duration="48000" />
       <workItem from="1527396464232" duration="4000" />
       <workItem from="1527396469853" duration="2000" />
-      <workItem from="1527396496150" duration="2330000" />
+      <workItem from="1527396496150" duration="5086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14750000" />
+    <option name="totallyTimeSpent" value="17506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -263,6 +269,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccommodationDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
         </state>
       </provider>
     </entry>
