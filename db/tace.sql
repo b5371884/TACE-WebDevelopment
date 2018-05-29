@@ -758,10 +758,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ืืnewsletter`
+-- Table structure for table `newsletter`
 --
 
-CREATE TABLE IF NOT EXISTS `ืืnewsletter` (
+CREATE TABLE IF NOT EXISTS `newsletter` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` text,
   `detail` text,

@@ -395,8 +395,8 @@ include "views/header_top.php"; ?>
                                     </div>
                                 </div>
 
-<!--                                <input type="text" id="WorkInCoopDuty" name="WorkInCoopDuty" placeholder=""-->
-<!--                                       class="form-control input-sm" required="true">-->
+                                <!--                                <input type="text" id="WorkInCoopDuty" name="WorkInCoopDuty" placeholder=""-->
+                                <!--                                       class="form-control input-sm" required="true">-->
 
                                 <!-- WorkInCoopDuty Text input-->
                                 <div class="form-group">
