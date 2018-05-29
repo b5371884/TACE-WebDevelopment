@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="views/css/bootstrap.css">
 	<!-- Superfish -->
 	<link rel="stylesheet" href="views/css/superfish.css">
-	<link rel="stylesheet" href="views/css/style.css">
+	<link rel="stylesheet" href="views/css/style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
 	<!-- Modernizr JS -->
 	<script src="views/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->

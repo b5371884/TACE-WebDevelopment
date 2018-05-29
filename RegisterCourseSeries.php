@@ -1,10 +1,7 @@
 <?php session_start(); ?>
 
 <?php
-
-    // $_SESSION['user_id'] = 101;
-    // $_SESSION['user_name'] = 'ภาคภูมิ วิเศษศรี';
-
+    include("config/config.php");
 ?>
 
 
