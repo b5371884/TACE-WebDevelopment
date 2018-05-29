@@ -379,39 +379,27 @@ include "views/header_top.php"; ?>
                                                checked="checked"> ไม่เกี่ยวข้อง <br>
                                         <input type="radio" name="WorkInCoop" id="WorkInCoop-1" value="1"
                                                checked="checked"> เกี่ยวข้อง <br>
-                                        <!--                                        <div class="radio">-->
-                                        <!--                                            <label for="WorkInCoop-0">-->
-                                        <!--                                                <input type="radio" name="WorkInCoop" value="1"-->
-                                        <!--                                                       checked="checked">-->
-                                        <!--                                                เกี่ยวข้อง-->
-                                        <!--                                            </label>-->
-                                        <!--                                        </div>-->
-                                        <!--                                        <div class="radio">-->
-                                        <!--                                            <label for="WorkInCoop-1">-->
-                                        <!--                                                <input type="radio" name="WorkInCoop" value="2">-->
-                                        <!--                                                ไม่เกี่ยวข้อง-->
-                                        <!--                                            </label>-->
-                                        <!--                                        </div>-->
+
+                                    </div>
+                                </div>
+                                <div id="WorkInCoopDuty">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label"
+                                               for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
+                                        <div class="col-sm-6">
+                                            <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
+                                                   placeholder=""
+                                                   class="form-control input-sm" required="true">
+                                        </div>
                                     </div>
                                 </div>
 
-                                <!--                                <input type="text" id="WorkInCoopDuty" name="WorkInCoopDuty" placeholder=""-->
-                                <!--                                       class="form-control input-sm" required="true">-->
-
-                                <!-- WorkInCoopDuty Text input-->
-                                <div class="form-group">
-                                    <label class="col-sm-4 control-label"
-                                           for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
-                                    <div class="col-sm-6">
-                                        <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
-                                               placeholder="" class="form-control input-sm" required="true">
-                                    </div>
-                                </div>
 
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="WorkCoopExp">ท่านมีประสบการณ์การดำเนินงานสหกิจศึกษา</label>
-                                    <div class="col-md-4">
+                                    <label class="col-md-4 control-label"
+                                           for="WorkCoopExp">ท่านมีประสบการณ์การดำเนินงานสหกิจศึกษา</label>
+                                    <div class="col-md-6">
                                         <div class="radio">
                                             <label for="WorkCoopExp-0">
                                                 <input type="radio" name="WorkCoopExp" id="WorkCoopExp-0"
@@ -447,8 +435,8 @@ include "views/header_top.php"; ?>
 
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
-                                    <label class="col-md-4 control-label" for="HaveCoop">หน่วยงานของท่าน<br/>มีการจัดการเรียนการสอนหลักสูตรสหกิจศึกษา</label>
-                                    <div class="col-md-4">
+                                    <label class="col-md-4 control-label" for="HaveCoop">หน่วยงานของท่านมีการจัดการเรียนการสอนหลักสูตรสหกิจศึกษา</label>
+                                    <div class="col-md-6">
                                         <div class="radio">
                                             <label for="HaveCoop-0">
                                                 <input type="radio" name="HaveCoop" id="HaveCoop-0" value="1"
@@ -507,11 +495,12 @@ include "views/header_top.php"; ?>
                                 <!-- Form Name -->
                                 <legend>ส่วนที่ 3 ข้อมูลทั่วไป</legend>
 
+
                                 <!-- Multiple Radios (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="Notebook">การนำ Notebook
                                         มาใช้ในการฝึกอบรม</label>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <label class="radio-inline" for="Notebook-0">
                                             <input type="radio" name="Notebook" id="Notebook-0" value="1"
                                                    checked="checked">
@@ -521,12 +510,11 @@ include "views/header_top.php"; ?>
                                             <input type="radio" name="Notebook" id="Notebook-1" value="2">
                                             ไม่สามารถนำมาได้
                                         </label>
-
                                     </div>
                                 </div>
                                 <!-- Multiple Radios (inline) -->
                                 <div class="form-group">
-                                    <label class="col-md-3 control-label" for="Food">ประเภทอาหาร</label>
+                                    <label class="col-md-4 control-label" for="Food">ประเภทอาหาร</label>
                                     <div class="col-md-6">
                                         <label class="radio-inline" for="Food-0">
                                             <input type="radio" name="Food" id="Food-0" value="1"
@@ -551,7 +539,7 @@ include "views/header_top.php"; ?>
                                 <div class="form-group">
                                     <label class="col-md-4 control-label"
                                            for="CongenitalDisease">ท่านมีโรคประจำตัวหรือไม่</label>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="radio">
                                             <label for="CongenitalDisease-0">
                                                 <input type="radio" name="CongenitalDisease"
@@ -573,14 +561,15 @@ include "views/header_top.php"; ?>
                                 </div>
 
                                 <!-- Text input-->
-                                <div class="form-group">
-                                    <label class="col-sm-4 control-label"
-                                           for="CongenitalDiseaseDetails">โปรดระบุโรคประจำตัว</label>
-                                    <div class="col-sm-6">
-                                        <input id="CongenitalDiseaseDetails" name="CongenitalDiseaseDetails"
-                                               type="text"
-                                               placeholder="" class="form-control input-sm" required="true">
-
+                                <div id="CongenitalDiseaseDetails">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label"
+                                               for="CongenitalDiseaseDetails">โปรดระบุโรคประจำตัว</label>
+                                        <div class="col-sm-6">
+                                            <input id="CongenitalDiseaseDetails" name="CongenitalDiseaseDetails"
+                                                   type="text"
+                                                   placeholder="" class="form-control input-sm" required="true">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -588,12 +577,11 @@ include "views/header_top.php"; ?>
                                 <!-- Multiple Checkboxes (inline) -->
                                 <div class="form-group">
                                     <label class="col-md-6 control-label" for="checkboxesSleep">
-                                        ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ
-                                        ซึ่งสามารถพักค้าง ณ
-                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3
-                                        วัน</label>
+                                        ข้าพเจ้าทราบว่าการฝึกอบรมนี้เป็นการฝึกอบรมแบบอยู่ประจำ  ซึ่งสามารถพักค้าง ณ
+                                        โรงแรมที่จัดการฝึกอบรมและสามารถเข้าร่วมการฝึกอบรมได้ตลอดระยะเวลา 3 วัน
+                                    </label>
                                     <br>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <label class="checkbox-inline" for="checkboxesSleep-0">
                                             <input type="checkbox" name="checkboxesSleep" id="checkboxesSleep-0"
                                                    value="1">
@@ -617,6 +605,7 @@ include "views/header_top.php"; ?>
 
                                     </div>
                                 </div>
+                                <br/>
 
 
                                 <!-- Button (Double) -->
@@ -633,8 +622,6 @@ include "views/header_top.php"; ?>
                                         </button>
                                     </div>
                                 </div>
-
-
                             </fieldset>
                         </form>
 
@@ -660,19 +647,20 @@ include "views/header_top.php"; ?>
                 });
             });
         </script>
+        <script>
+            $(document).ready(function () {
+                $('input[name="CongenitalDisease"]').click(function () {
+                    var value = $(this).val();
+                    if (value == '1') {
+                        $('#CongenitalDiseaseDetails').show();
+                    }
+                    else {
+                        $('#CongenitalDiseaseDetails').hide();
+                    }
+                });
+            });
+        </script>
 
-        <!-- WorkInCoopDuty Text input-->
-        <div id="WorkInCoopDuty">
-            <div class="form-group">
-                <label class="col-sm-4 control-label"
-                       for="WorkInCoopDuty">ทำหน้าที่เป็น</label>
-                <div class="col-sm-6">
-                    <input id="WorkInCoopDuty" name="WorkInCoopDuty" type="text"
-                           placeholder=""
-                           class="form-control input-sm" required="true">
-                </div>
-            </div>
-        </div>
 
         <!-- Put Each Section Here -->
 

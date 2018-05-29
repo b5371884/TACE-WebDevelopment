@@ -24,7 +24,7 @@ include "views/header_top.php"; ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title> .: Add New Course : TACE Activity @ SUT :. </title>
+    <title> .: Add New Generation : TACE Activity @ SUT :. </title>
 
 
     <?php /* header_meta */
@@ -79,10 +79,80 @@ include "views/header_top.php"; ?>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <form action=" " method="post" enctype="multipart/form-data" class="form-horizontal">
-                            <legend>เพิ่มหลักสูตรอบรม</legend>
+                        <form id="form1" name="form1" action="GenerationSubmit.php" method="post"
+                              enctype="multipart/form-data" class="form-horizontal">
+                            <legend>แก้ไขรุ่น</legend>
+
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Show_admin">สถานะหลักสูตร (โชว์หน้า
+                                    Admin)</label>
+                                <div class="col-sm-6">
+                                    <select name="Show_admin" id="Show_admin" >
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Show_user">สถานะหลักสูตร
+                                    (โชว์หน้าใบสมัคร)</label>
+                                <div class="col-sm-6">
+                                    <select name="Show_user" id="Show_user" >
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Move_enable_status">เปิดย้ายรุ่น</label>
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="Move_enable_status" value="Move_enable_status"
+                                           id="Move_enable_status"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Check_enable_status">เปิดเช็ครุ่น
+                                    (สำหรับเช็คตอนพิมพ์ใบสมัคร)</label>
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="Check_enable_status" value="Check_enable_status"
+                                           id="Check_enable_status"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Instruction_enable_status">เปิด-ปิด คำชี้แจง (สำหรับเปิดคำชี้แจง)</label>
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="Instruction_enable_status" value="Instruction_enable_status"
+                                           id="Instruction_enable_status"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Print_enable_status">เปิด พิมพ์ใบสมัคร
+                                    (สำหรับเปิดค้นหาชื่อเพื่อพิมพ์ใบสมัคร)</label>
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="Print_enable_status" value="Print_enable_status"
+                                           id="Print_enable_status"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label" for="Course_details">คำชี้แจงหลักสูตร</label>
+                                <div class="col-sm-6">
+                                    <textarea class="form-control" name="Course_details" id="Course_details"
+                                              rows="3"></textarea>
+                                </div>
+                            </div>
+                            <br/>
 
 
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"
+                                       for="ButtonSave">ยืนยันการเพิ่มรุ่น</label>
+                                <div class="col-md-8">
+                                    <button id="ButtonSave" name="ButtonSave" class="btn btn-success">ยืนยัน
+                                    </button>
+                                    <button id="ButtonCancle" name="ButtonCancle" class="btn btn-danger">ยกเลิก
+                                    </button>
+                                </div>
+                            </div>
                         </form>
 
                     </div>
