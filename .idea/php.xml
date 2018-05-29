@@ -2,6 +2,7 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
+<<<<<<< HEAD
       <path value="/usr/local/lib/php" />
       <path value="" />
       <path value="$PROJECT_DIR$" />
@@ -249,4 +250,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+=======
+      <path value="" />
+    </include_path>
+  </component>
+>>>>>>> 1dc84dc0eb9141ea8083ebdc8fb67768d2a6d21c
 </project>
